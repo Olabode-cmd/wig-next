@@ -147,7 +147,8 @@ export default function HairShop() {
                         className="btn btn-primary py-1 ms-1 d-block d-md-none"
                         onClick={handleToggleModal}
                       >
-                        Filter
+
+                        Filterr
                       </button>
 
                       <Modal show={showModal} onClose={handleToggleModal} />
