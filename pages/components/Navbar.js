@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const Navbar = () => {
+  const [selectedCurrency, setSelectedCurrency] = useState("default");
+  const handleCurrencyChange = (event) => {
+    setSelectedCurrency(event.target.value);
+  };
   return (
     <>
       <header>
@@ -30,7 +34,12 @@ const Navbar = () => {
 
                     <div className="nav-right d-block d-md-none">
                       <div className="d-flex align-items-center justify-content-end">
-                        <select name="currency" id="currency">
+                        <select
+                          name="currency"
+                          id="currency"
+                          value={selectedCurrency}
+                          onChange={handleCurrencyChange}
+                        >
                           <option value="usd" selected>
                             USD
                           </option>
@@ -62,7 +71,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-md-2 my-auto nav-right d-none d-md-block">
                   <div className="d-flex align-items-center justify-content-end">
-                    <select name="currency" id="currency">
+                    <select
+                      name="currency"
+                      id="currency"
+                      value={selectedCurrency}
+                      onChange={handleCurrencyChange}
+                    >
                       <option value="usd" selected>
                         USD
                       </option>
