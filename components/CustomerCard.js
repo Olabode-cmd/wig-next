@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const CustomerCard = (props) => {
   return (
@@ -20,6 +21,13 @@ const CustomerCard = (props) => {
       </div>
     </>
   );
+};
+
+CustomerCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  comment: PropTypes.string.isRequired,
+  key: PropTypes.number,
 };
 
 export default CustomerCard;

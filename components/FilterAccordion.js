@@ -30,7 +30,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios1"
                   />
-                  <label className="form-check-label" for="exampleRadios1">
+                  <label className="form-check-label" htmlFor="exampleRadios1">
                     Lace Front Wigs
                   </label>
                 </div>
@@ -42,7 +42,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios2"
                   />
-                  <label className="form-check-label" for="exampleRadios2">
+                  <label className="form-check-label" htmlFor="exampleRadios2">
                     360 Wigs
                   </label>
                 </div>
@@ -54,7 +54,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios3"
                   />
-                  <label className="form-check-label" for="exampleRadios3">
+                  <label className="form-check-label" htmlFor="exampleRadios3">
                     Ready-to-wear Wigs
                   </label>
                 </div>
@@ -66,7 +66,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios4"
                   />
-                  <label className="form-check-label" for="exampleRadios4">
+                  <label className="form-check-label" htmlFor="exampleRadios4">
                     Headband Wigs
                   </label>
                 </div>
@@ -78,7 +78,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios5"
                   />
-                  <label className="form-check-label" for="exampleRadios5">
+                  <label className="form-check-label" htmlFor="exampleRadios5">
                     Closure Wigs
                   </label>
                 </div>
@@ -111,7 +111,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios2"
                   />
-                  <label className="form-check-label" for="exampleRadios2">
+                  <label className="form-check-label" htmlFor="exampleRadios2">
                     360 Wigs
                   </label>
                 </div>
@@ -123,7 +123,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios3"
                   />
-                  <label className="form-check-label" for="exampleRadios3">
+                  <label className="form-check-label" htmlFor="exampleRadios3">
                     Ready-to-wear Wigs
                   </label>
                 </div>
@@ -156,7 +156,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios2"
                   />
-                  <label className="form-check-label" for="exampleRadios2">
+                  <label className="form-check-label" htmlFor="exampleRadios2">
                     360 Wigs
                   </label>
                 </div>
@@ -168,7 +168,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios3"
                   />
-                  <label className="form-check-label" for="exampleRadios3">
+                  <label className="form-check-label" htmlFor="exampleRadios3">
                     Ready-to-wear Wigs
                   </label>
                 </div>
@@ -202,7 +202,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios2"
                   />
-                  <label className="form-check-label" for="exampleRadios2">
+                  <label className="form-check-label" htmlFor="exampleRadios2">
                     360 Wigs
                   </label>
                 </div>
@@ -214,7 +214,7 @@ const FilterAccordion = () => {
                     name="exampleRadios"
                     id="exampleRadios3"
                   />
-                  <label className="form-check-label" for="exampleRadios3">
+                  <label className="form-check-label" htmlFor="exampleRadios3">
                     Ready-to-wear Wigs
                   </label>
                 </div>
@@ -247,7 +247,7 @@ const FilterAccordion = () => {
                   name="exampleRadios"
                   id="exampleRadios2"
                 />
-                <label className="form-check-label" for="exampleRadios2">
+                <label className="form-check-label" htmlFor="exampleRadios2">
                   360 Wigs
                 </label>
               </div>
@@ -259,7 +259,7 @@ const FilterAccordion = () => {
                   name="exampleRadios"
                   id="exampleRadios3"
                 />
-                <label className="form-check-label" for="exampleRadios3">
+                <label className="form-check-label" htmlFor="exampleRadios3">
                   Ready-to-wear Wigs
                 </label>
               </div>

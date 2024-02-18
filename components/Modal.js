@@ -1,5 +1,6 @@
 import React from "react";
 import FilterAccordion from "./FilterAccordion";
+import PropTypes from "prop-types";
 
 const Modal = ({ show, onClose }) => {
   return (
@@ -32,6 +33,11 @@ const Modal = ({ show, onClose }) => {
       </div>
     </div>
   );
+};
+
+Modal.propTypes = {
+  show: PropTypes.any,
+  onClose: PropTypes.any,
 };
 
 export default Modal;

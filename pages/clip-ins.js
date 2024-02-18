@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Head from "next/head";
 
-import Navbar from "./components/Navbar";
-import ProductBox from "./components/ProductBox";
-import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
-import Limited from "./components/Limited";
-import FilterAccordion from "./components/FilterAccordion";
-import Modal from "./components/Modal";
+import Navbar from "../components/Navbar";
+import ProductBox from "../components/ProductBox";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
+import Limited from "../components/Limited";
+import FilterAccordion from "../components/FilterAccordion";
+import Modal from "../components/Modal";
 
 export default function Clipins() {
   const laceWigs = [
@@ -168,9 +168,11 @@ export default function Clipins() {
 
                 <div className="row mt-2">
                   {laceWigs.map((wig, index) => (
-                    <div className="col-6 col-md-4">
+                    <div
+                      className="col-6 col-md-4"
+                      key={`${wig.details}-${index}`}
+                    >
                       <ProductBox
-                        key={index}
                         img={wig.img}
                         details={wig.details}
                         price={wig.price}
@@ -187,9 +189,11 @@ export default function Clipins() {
 
                 <div className="row mt-2">
                   {wigs360.map((wig, index) => (
-                    <div className="col-6 col-md-4">
+                    <div
+                      className="col-6 col-md-4"
+                      key={`${wig.details}-${index}`}
+                    >
                       <ProductBox
-                        key={index}
                         img={wig.img}
                         details={wig.details}
                         price={wig.price}
@@ -206,9 +210,11 @@ export default function Clipins() {
 
                 <div className="row mt-2">
                   {readyToWearWigs.map((wig, index) => (
-                    <div className="col-6 col-md-4">
+                    <div
+                      className="col-6 col-md-4"
+                      key={`${wig.details}-${index}`}
+                    >
                       <ProductBox
-                        key={index}
                         img={wig.img}
                         details={wig.details}
                         price={wig.price}

@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
 
-import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 
 export default function About() {
     return (
@@ -47,7 +47,7 @@ export default function About() {
                   <p className="text-grey">
                     WigsCastle was born out of the desire to create a space
                     where beauty knows no boundaries. We understand that your
-                    hair is not just a part of your appearance; it's an
+                    hair is not just a part of your appearance; it&apos;s an
                     extension of your identity. With that in mind, we set out to
                     curate a range of original, high-quality products that cater
                     to diverse tastes and preferences.
@@ -97,7 +97,7 @@ export default function About() {
                             <img src="images/check.png" alt="check" className="icon" />
                             <p className="text-bold mt-2">Originality</p>
                             <p className="text-grey mt-2">
-                                We handpick each product to ensure authenticity and originality. Our 'Original Products' section reflects our
+                                We handpick each product to ensure authenticity and originality. Our &apos;Original Products&apos; section reflects our
                                 dedication
                                 to quality.
                             </p>
@@ -119,7 +119,7 @@ export default function About() {
                             <img src="images/trophy.png" alt="trophy" className="icon" />
                             <p className="text-bold mt-2">Innovation</p>
                             <p className="text-grey mt-2">
-                            Our 'New Arrival Everyday' collection is a testament to our passion for staying on the cutting edge of fashion.
+                            Our &apos;New Arrival Everyday&apos; collection is a testament to our passion for staying on the cutting edge of fashion.
                             </p>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ export default function About() {
                             <img src="images/smile.png" alt="smile" className="icon" />
                             <p className="text-bold mt-2">Customer Satisfaction</p>
                             <p className="text-grey mt-2">
-                                Our 'New Arrival Everyday' collection is a testament to our passion for staying on the cutting edge of
+                                Our &apos;New Arrival Everyday&apos; collection is a testament to our passion for staying on the cutting edge of
                                 fashion.
                             </p>
                         </div>
@@ -140,7 +140,7 @@ export default function About() {
                             <img src="images/recycle.png" alt="recycle" className="icon" />
                             <p className="text-bold mt-2">Longevity</p>
                             <p className="text-grey mt-2">
-                                Our '30 Days Guarantee' ensures that your investment is protected, and you have 30 days to ensure you are satisfied with
+                                Our &apos;30 Days Guarantee&apos; ensures that your investment is protected, and you have 30 days to ensure you are satisfied with
                                 your purchase.
                             </p>
                         </div>
@@ -164,7 +164,7 @@ export default function About() {
                 <div className="text-center">
                     <p className="text-purple mb-3 text-bold">Join Us</p>
                     <h1 className="title">Join Us On Your Beauty Journey</h1>
-                    <p className="text-grey">At WigsCastle, we're not just a store; we're your partners on a journey to unlock your inner beauty and confidence.<br /> We
+                    <p className="text-grey">At WigsCastle, we&apos;re not just a store; we&apos;re your partners on a journey to unlock your inner beauty and confidence.<br /> We
                     invite you to explore our collections, connect with our community, and share in the joy<br /> of self-expression through
                     exquisite wigs and accessories.</p>
                 </div>

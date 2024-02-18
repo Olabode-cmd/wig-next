@@ -2,13 +2,13 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import Navbar from "./components/Navbar";
-import OwlCarousel from "./components/OwlCarousel";
-import ProductBox from "./components/ProductBox";
-import CustomerCard from "./components/CustomerCard";
-import Newsletter from "./components/Newsletter";
-import Limited from "./components/Limited";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import OwlCarousel from "../components/OwlCarousel";
+import ProductBox from "../components/ProductBox";
+import CustomerCard from "../components/CustomerCard";
+import Newsletter from "../components/Newsletter";
+import Limited from "../components/Limited";
+import Footer from "../components/Footer";
 
 export default function Home() {
     const featuredProducts = [
@@ -107,7 +107,10 @@ export default function Home() {
                     Wigs
                   </h1>
 
-                  <Link href="/hair-shop" className="btn btn-primary box outline mt-3">
+                  <Link
+                    href="/hair-shop"
+                    className="btn btn-primary box outline mt-3"
+                  >
                     SHOP NOW
                   </Link>
                 </div>
@@ -144,8 +147,8 @@ export default function Home() {
                   <img src="images/smile.png" alt="smile" className="my-3" />
                   <h3 className="best-tag">Satisfaction Guarantee</h3>
                   <p className="best-subtitle">
-                    If you're not delighted with your purchase, we're here to
-                    make it right
+                    If you&apos;re not delighted with your purchase, we&apos;re
+                    here to make it right
                   </p>
                 </div>
                 <div className="col-md-3">
@@ -303,4 +306,4 @@ export default function Home() {
         <Footer />
       </>
     );
-};
+}
