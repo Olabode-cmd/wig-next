@@ -301,7 +301,7 @@ export default function Home() {
             <Newsletter />
           </div>
         </main>
-
+        
         {/* FOOOOOTER */}
         <Footer />
       </>
