@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: "Felixtowe";
-    src: url("/fonts/felixtowe-Regular.woff") format("woff"),
-        url("/fonts/felixtowe-Regular.ttf") format("truetype");
+    src: url("https://fonts.cdnfonts.com/s/104540/Felixtowe-vmdOD.woff") format("woff"),
+        /* url("/fonts/felixtowe-Regular.ttf") format("truetype"); */
 }
 
 /* Variables */
