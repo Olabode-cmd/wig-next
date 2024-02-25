@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/globals.css'
+import React from "react";
+import "../styles/globals.css";
 import PropTypes from "prop-types";
 
 export default function MyApp({ Component, pageProps }) {
@@ -15,6 +15,7 @@ export default function MyApp({ Component, pageProps }) {
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossOrigin="anonymous"
       ></script>
+      <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
 
       <Component {...pageProps} />
     </>

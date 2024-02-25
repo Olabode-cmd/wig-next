@@ -3,6 +3,8 @@
 
 @font-face {
     font-family: "Felixtowe";
+    font-style: normal;
+    font-weight: 400;
     src: url("https://fonts.cdnfonts.com/s/104540/Felixtowe-vmdOD.woff") format("woff"),
         /* url("/fonts/felixtowe-Regular.ttf") format("truetype"); */
 }
@@ -186,7 +188,9 @@ h6 {
     font-weight: 700 !important;
     color: #000;
 }
-
+h1.lighter {
+    font-weight: 500 !important;
+}
 .w-40 {
     width: 40% !important;
 }

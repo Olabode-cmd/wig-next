@@ -102,7 +102,7 @@ export default function Home() {
               <div className="row gx-0" style={{ height: "100%" }}>
                 <div className="col-md-6 left-banner">
                   <p className="subtitle">Discover your perfect look</p>
-                  <h1 className="title">
+                  <h1 className="title lighter">
                     Unlock Your True <br /> Beauty with Our <br /> Exquisite
                     Wigs
                   </h1>
@@ -178,7 +178,7 @@ export default function Home() {
                     <div className="shade"></div>
 
                     <div className="text">
-                      <h1 className="title">Wigs</h1>
+                      <h1 className="title lighter">Wigs</h1>
                       <a href="#" className="btn-text-white">
                         SHOP NOW
                       </a>
@@ -192,7 +192,7 @@ export default function Home() {
                     <div className="shade"></div>
 
                     <div className="text">
-                      <h1 className="title">Bundles</h1>
+                      <h1 className="title lighter">Bundles</h1>
                       <a href="#" className="btn-text-white">
                         SHOP NOW
                       </a>
@@ -206,7 +206,7 @@ export default function Home() {
                     <div className="shade"></div>
 
                     <div className="text">
-                      <h1 className="title">Frontals</h1>
+                      <h1 className="title lighter">Frontals</h1>
                       <a href="#" className="btn-text-white">
                         SHOP NOW
                       </a>
@@ -220,7 +220,7 @@ export default function Home() {
                     <div className="shade"></div>
 
                     <div className="text">
-                      <h1 className="title">Clip-ins</h1>
+                      <h1 className="title lighter">Clip-ins</h1>
                       <a href="#" className="btn-text-white">
                         SHOP NOW
                       </a>
@@ -301,7 +301,7 @@ export default function Home() {
             <Newsletter />
           </div>
         </main>
-        
+
         {/* FOOOOOTER */}
         <Footer />
       </>

@@ -9,7 +9,7 @@ const Limited = () => {
             <div className="row gx-0 align-items-center">
               <div className="col-md-6 left">
                 <p className="text-uppercase subtitle">limited offer</p>
-                <h1 className="title">
+                <h1 className="title lighter">
                   Unlock Your <br />
                   True Beauty
                 </h1>
